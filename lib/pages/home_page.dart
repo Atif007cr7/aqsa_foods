@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
       body: Container(
         child: Row(
           children: [
-            SizedBox(width: 700, child: footer()),
+            SizedBox(width: 260, height: 260, child: menuItems()),
           ],
         ),
       ),

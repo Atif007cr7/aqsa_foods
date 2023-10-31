@@ -25,15 +25,13 @@ Text buttonText({required btext}) {
   );
 }
 
-Text mullishFont({
-  required input,
-}) {
+Text mullishFont({required input, required fontsize}) {
   // Color textcolor = Color(0xff777777);
 
   return Text(
     input,
     style: GoogleFonts.mulish(
-        fontSize: 15, fontWeight: FontWeight.w400, color: Colors.black),
+        fontSize: fontsize, fontWeight: FontWeight.w400, color: Colors.black),
   );
 }
 
